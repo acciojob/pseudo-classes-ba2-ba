@@ -1,8 +1,7 @@
 /*  your css code here. If applicable */
-body {
-	background-color:skyblue;
-}
- p:last-child { 
+
+
+.pr{ 
         color:red;  
       }  
    li:nth-child(1) {
@@ -27,7 +26,7 @@ body {
 .para{
 	color:white; 
 	background-color:black;
-	margin:-10px; 
+	margin:-10px;
 }
 body{
 	background:rgb(135, 206, 235); 
