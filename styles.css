@@ -1,14 +1,15 @@
 /*  your css code here. If applicable */
-
+ div{
+   margin:-10px;
+}
 div p:first-child {
     background-color: black;
     color: white;
-	margin:-10px
+	
 }
 
 div p:last-child {
     color: red;
-	
 }
 
 body ul li:nth-child(1) {
