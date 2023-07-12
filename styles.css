@@ -1,33 +1,38 @@
 /*  your css code here. If applicable */
-
-
-.pr{ 
-        color:red;  
-      }  
-   li:nth-child(1) {
-        background-color: white;
-      }
-      li:nth-child(2) {
-        background-color: slategray; 
-      }
-      li:nth-child(3) {
-        background-color: pink;
-      }
-    li:nth-child(4) { 
-        background-color: slategray; 
-	} 
-		li:nth-child(5) {
-        background-color: white;
-		} 
- p:first-child {  
-        background:black; 
-	      color:white;
-      }  
-.para{
-	color:white; 
-	background-color:black;
-	margin:-10px;
+ .para{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+div p:first-child {
+    background-color: black;
+    color: white;
+}
+
+div p:last-child {
+    color: red;
+}
+
+body ul li:nth-child(1) {
+    background-color: white;
+}
+
+body ul li:nth-child(2) {
+    background-color: slategray;
+}
+
+body ul li:nth-child(3) {
+    background-color: pink;
+}
+
+body ul li:nth-child(4) {
+    background-color: slategray;
+}
+
+body ul li:nth-child(5) {
+    background-color: white;
+}
+  body{
 	background:rgb(135, 206, 235); 
 }
+
